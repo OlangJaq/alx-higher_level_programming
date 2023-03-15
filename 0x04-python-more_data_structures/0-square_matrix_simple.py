@@ -10,7 +10,5 @@ def square_matrix_simple(matrix=[]):
     """
 
     # Create a new matrix with the same size as the input matrix
-    new_matrix = []
-    for i in range(len(matrix)):
-        new_matrix.append(list(map(lambda x: x ** 2, matrix[i])))
-    return new_matrix
+    new_matrix = [[x**2 for x in row] for row in matrix]
+    return(new_matrix)
