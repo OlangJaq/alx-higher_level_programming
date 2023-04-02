@@ -1,6 +1,7 @@
 #!usr/bin/python3
 
 def add_integer(a, b=98):
+    """function that adds 2 integers."""
     try:
         # Check if a and b are integers or floats
         if not isinstance(a, (int, float)):
