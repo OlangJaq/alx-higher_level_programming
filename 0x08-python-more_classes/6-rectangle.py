@@ -7,7 +7,8 @@ class Rectangle:
     Defines a rectangle with a given width and height.
 
     Attributes:
-        number_of_instances (int): keeps track of the number of instances created.
+        number_of_instances (int):
+        keeps track of the number of instances created.
         width (int): width of the rectangle.
         height (int): height of the rectangle.
     """
@@ -45,10 +46,12 @@ class Rectangle:
 
     def __repr__(self):
         """
-        Returns a string representation of the rectangle to recreate a new instance.
+        Returns a string representation of the
+        rectangle to recreate a new instance.
 
         Returns:
-            str: string representation of the rectangle to recreate a new instance.
+            str: string representation of the
+            rectangle to recreate a new instance.
         """
         return "Rectangle({}, {})".format(self.width, self.height)
 
@@ -108,9 +111,8 @@ class Rectangle:
         elif value < 0:
             raise ValueError("height must be >= 0")
         else:
-            self.__height = value
-
-    def area(self):
+            self.__height = value   
+    def area(self):  
         """
         Calculates the area of the rectangle.
 
