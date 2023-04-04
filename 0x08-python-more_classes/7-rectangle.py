@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 """Defines a class """
 
+
 class Rectangle:
-    """Rectangle class with width, height, area, perimeter and print_symbol attributes"""
+    """
+    Rectangle class with width, height,
+    area, perimeter and print_symbol attributes
+    """
 
     number_of_instances = 0
     print_symbol = "#"
@@ -55,11 +59,15 @@ class Rectangle:
             return 2 * (self.width + self.height)
 
     def __str__(self):
-        """Return a string representation of the rectangle"""
+        """
+        Return a string representation
+        of the rectangle
+        """
         if self.width == 0 or self.height == 0:
             return ""
         else:
-            return "\n".join(str(self.print_symbol) * self.width for _ in range(self.height))
+            return "\n".join(str(self.print_symbol)
+                             * self.width for _ in range(self.height))
 
     def __repr__(self):
         """Return a string representation of the rectangle"""
