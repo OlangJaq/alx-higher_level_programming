@@ -17,8 +17,8 @@ Usage
 
 ::
 
-    >>> say_my_name("Tom Jerry", "Avril")
-    My name is Tom Jerry Avril
+    >>> say_my_name("Osama Bin", "Laden")
+    My name is Osama Bin Laden
 
 The parameter ```last_name``` is optional. If no last name is provided,
 an empty string is printed instead.
