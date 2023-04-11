@@ -12,6 +12,4 @@ def lookup(obj):
         obj(any): objects whose attributes and methords are returned
     """
 
-    attrs = dir(obj)
-    methods = [attr for attr in attrs if callable(getattr(obj, attr))]
-    return attrs + methods
+    return (dir(obj))
