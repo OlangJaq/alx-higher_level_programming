@@ -6,6 +6,7 @@ Save Object to a file using JSON
 
 import json
 
+
 def save_to_json_file(my_obj, filename):
     """Writes an object to a text file using JSON representation.
     Args:
@@ -14,4 +15,4 @@ def save_to_json_file(my_obj, filename):
 
     """
     with open(filename, mode='w', encoding='UTF-8') as json_file:
-       return ( json.dump(my_obj, json_file))
+        return (json.dump(my_obj, json_file))
