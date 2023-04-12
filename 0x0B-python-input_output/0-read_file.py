@@ -3,6 +3,7 @@
 Module for read file methords.
 """
 
+
 def read_file(filename=""):
     """
     Reads text file and prints to STDOUT

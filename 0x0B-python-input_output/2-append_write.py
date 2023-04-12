@@ -3,6 +3,7 @@
 Function that appends a file
 """
 
+
 def append_write(filename="", text=""):
     """append_write appends string at the end of a text file.
 
