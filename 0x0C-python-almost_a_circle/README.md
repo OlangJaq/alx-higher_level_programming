@@ -11,11 +11,14 @@
 6. How to handle named arguments in a function
 ```
 
-# RESOURCES
- [args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)
+## RESOURCES
 
- [JSON encorder and decorder](https://docs.python.org/3/library/json.html)
+```
+ + [args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)
 
- [unittest moduele](https://docs.python.org/3.4/library/unittest.html#module-unittest)
+ + [JSON encorder and decorder](https://docs.python.org/3/library/json.html)
 
- [Python test cheatsheet](https://wwww.pythonsheets.com/notes/python-tests.html)
+ + [unittest moduele](https://docs.python.org/3.4/library/unittest.html#module-unittest)
+
+ + [Python test cheatsheet](https://wwww.pythonsheets.com/notes/python-tests.html)
+ ```
