@@ -1,6 +1,6 @@
 # **0x0c. Python almost a circle**
 
-## Learnining objectives 
+## **Learnining objectives** 
 
 ```
 At the end of this project, this are the accomplished objectives
